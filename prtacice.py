@@ -23,7 +23,7 @@ def add_books():
     book_title=str(input("Enter your title :"))
     author=str(input("Enter your author name :"))
     member=str(input("Enter your name :"))
-    sql="INSERT INTO (book_title,author,member_name ) VALUES(%s,%s,%s)"
+    sql="INSERT INTO books(book_title,author,member_name ) VALUES(%s,%s,%s);"
     values=(book_title,author,member)
     myconn.execute(sql,values)
     mydb.commit() 
@@ -38,7 +38,15 @@ def view_all():
     if data:
         for i in data:
             print(i)
-
+def update():
+    num2=str(input("Enter your name which you add book on that name :"))
+    num1=str(input("Enter your author name :"))
+    book=str(input("Enter your book_title :"))
+    sql="UPDATE books SET book_title=%s, author=%s WHERE member_name=%s"
+    values=(book,num1,num2)
+    myconn.execute(sql,values)
+    mydb.commit()
+    print("update successfully  ")
 while True:
     print("1. add book")
     print("2. view all")
@@ -49,3 +57,5 @@ while True:
         add_books()
     elif choice==2:
         view_all()
+    elif choice==3:
+        update()
