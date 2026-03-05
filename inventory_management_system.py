@@ -8,7 +8,6 @@ mydb=mysql.connector.connect(
 )
 print("connected")
 
-# perfectly connected 
 
 myconn=mydb.cursor()
 
