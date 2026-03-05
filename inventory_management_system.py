@@ -1,11 +1,10 @@
 import mysql.connector
 
 mydb=mysql.connector.connect(
-    host="localhost",
-    user="root",
-    database="Inventory",
-    password="12qwQW?@"
-    
+        host="localhost",
+        password="12qwQW?@",
+        database="inventory",
+        user="root"
 )
 print("connected")
 
