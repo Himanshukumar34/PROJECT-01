@@ -8,3 +8,5 @@ for i in range(num1):
     password+=choice
 print(f"your password  :",password)
         
+
+
