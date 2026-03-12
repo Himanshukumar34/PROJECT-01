@@ -1,7 +1,7 @@
 # Add student data
 # Update marks
 # Display topper
-# Save records permanently
+# Save records permanentlyjj
 print("----Student card management system ------")
 dic={}
 def add_student():
