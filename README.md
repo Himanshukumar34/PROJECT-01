@@ -1,7 +1,7 @@
 
 # Python Practice Projects
 
-Welcome! 👋
+Welcome! 
 
 This repository contains my daily Python practice and learning projects. I started this collection as a student in class 11 to improve my coding skills and experiment with new ideas. Every file here represents a small project, exercise, or concept I explored while learning Python.
 
