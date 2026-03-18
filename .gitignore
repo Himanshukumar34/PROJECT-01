@@ -6,6 +6,8 @@ new2.py
 *.md
 *.txt
 *.png
+html_css_projects/
+sql_projects/
 
 
 
