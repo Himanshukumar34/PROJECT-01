@@ -381,7 +381,7 @@ The iteration statement are also called loops or looping statements. python prov
   2.1 counting loops :The loops thats repeats a certain number of times python for loop is a counting loops 
 
   2.2 conditional loops : The loop that repeats until a certain things happens i.e 
-  they keeps  repeating as long as some condition is true pythons while loops in conditional loops 
+they keeps  repeating as long as some condition is true pythons while loops in conditional loops 
 
 3.For loop =for <variable > in <sequence> :
                   statemnts_to_repeats
