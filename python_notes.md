@@ -1,3 +1,45 @@
+<!--                       PROBLEM SOLVEING SKILLS                    -->
+1.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 🧠 What is a Compiler?
 A compiler converts your entire code into machine code at once before running it.
 🔧 How it works:
@@ -188,20 +230,53 @@ Ans Escape	Meaning
 \v	Vertical tab
  
 
-<!--                                            STRING IN PYTHON                                                         -->
-Q.14 what is strings in python?
-Ans string is datat type that stores a sequence of character .
+<!--                                                                                 STRING IN PYTHON                                                       -->
+1. strings in python = string is datat type that stores a sequence of character in double and single inverted charcter. strings is immutbale.  
+Ex :
+1. "himmanshu"
+2. "133"
 
-Q.15 What is concatenation in string ?
-Ans = it means sum of two string is not addiion see.
 
+2. operators in stirings = The two basics operators   of strings are + and * have used these operators as arithmetic operators  before for addititon and multiplication respectivley . But  used with strings + operators performs concatenation  rather than addition and operators perfroms replication rather than multiplication . let us see how. 
 Example :
 "hello"+ "world"= helloworld
-"1" +"4" =14
+"1" +"4" =14 # string concantenation operators rather than addititon
+"1" * 5 =11111  # string replication operators rather than multiplication
+"2"+ 5= error
+"3" * "4" = error
 
 
-Q.16 What is len function in string ?
-Ans it means length of a string  see .
+3. comparsion operators in strings =
+"a"=="a" will give true
+"abc"=="abc" will give true 
+"j"=="J" will give false
+
+
+4. ordinal value of strings = 
+characters    ordinal value 
+0 to 9        48 to 57 
+A to Z        65 to 90
+a to z        97 to 122
+
+
+5.  greator than and lower than in strings =
+Ex : 'A' > 'a' # it will give false because A  has 65 and a 97 
+'ABC'> 'abc' # it will give false beacause of ordinal value 
+
+
+6. find ordinal value of and character in python= 
+ od() using this we find ordinal value of any character .
+Ex :
+print(od("a"))
+output : 97
+
+6.  find  character by od value= 
+Ex:
+print(ch(97)) #output is  'a'
+
+
+
+7.  len function in string = it means length of a string  see .
 Ex :
 name="hello"
 name2= "world"
@@ -213,45 +288,44 @@ name4=name+" "+name2
 print(len(name4))
 <!-- output is 11 -->
 
-Q.17 what is indexing in python ?
-Ans =Indexing means accessing individual characters of a string using their position (index number).
+
+8. Indexing in python = Indexing means accessing individual characters of a string using their position (index number).
 EXAMPLE:
 | Character | P | y | t | h | o | n |
-
 | Index     | 0 | 1 | 2 | 3 | 4 | 5 |
 
-Q.18 how to access any string by indexing ?
-Ans =
+
+9.  how to access any string by indexing =
 EXAMPLE:
 text = "Python"
 print(text[0])  # P
 print(text[2])  # t
 
-Q.19 what is negative indexing ?
-Ans
+
+10. Negative indexing =
 EXAMPLE:
 | Character | P  | y  | t  | h  | o  | n  |
 | --------- | -- | -- | -- | -- | -- | -- |
 | Index     | -6 | -5 | -4 | -3 | -2 | -1 |
 
 
-Q.20 What is slicing in  string  ?
-Ans Accessing a part of a string . last indexing is not count in both positice as well as negative 
+11. Slicing in  string  =
+Accessing a part of a string . last indexing is not count in both positice as well as negative 
 str[ starting _idx : ending :jump  ]
-
 Ex :
 str= "apnacollege"
 str[1:4] is "pna"
 str[ :4] is same as str[0:4]
 str[1: ] is same as str[1: len(str)]
-
+str[1:4:2] is same but have jump also p , a ,o 
+str[ : :-1] is output is egellocanpa
 Ex2:
 str="himanshu kumar "
 str[-5:] it means "kumar"
 str[-5:-1] it means "kuma"
 
-Q.21 what is string functions ?
-Ans =
+
+12. string functions= 
 Example : 
 str=" I am a coder"
 1. str.endswith("er") # retrun true if string ends with er 
@@ -264,9 +338,10 @@ str=" I am a coder"
 8. str.isdigit() # it give false because it is not a digit
 9. str.isalpha() #it give true beacuse it is aplhabeticall 
 10. str.strip()#it remove spaces form starting and end
+11. str.title()
 
-Q.22 what is join function in strings ?
-Ans
+
+13. what is join function in strings =
 words ="hello world"
 
 result = ",".join(words)
@@ -298,7 +373,7 @@ A compound statment represents a group of statemnt executed as a unit . The comp
 <indented body conatining multiple simple and/or compound statemnts >
 this is a compound statement has :
  
-2.Statement flow control = they are three types 
+2. Statement flow control = they are three types 
 1. sequence 
 2. selection
 3. iteration
@@ -386,7 +461,7 @@ they keeps  repeating as long as some condition is true pythons while loops in c
 3.For loop =for <variable > in <sequence> :
                   statemnts_to_repeats
 
-4.Range function = The range fun use with pyton loops . The upper and limit also be negative. 
+4. Range function = The range fun use with pyton loops . The upper and limit also be negative. 
 example :
 range(1,100,2) # starts from 1 and end to 99 and step not is one is 2.
 range(lower_limit, upper_limit , step ) # all value should be integers
@@ -394,13 +469,51 @@ range(lower_limit, upper_limit , step ) # all value should be integers
 example2:
 range(1,22,3) # so it means +3 every time output is 1 4 7 10
 
-5. 
+5. operators in and not in 
+let us also take about in operators , which is used with range() in for loops.
+to check whether a value is contained inside a list you can use in operators e.g 
 
+EX:
+will return false as value 5 is not contained in sequence [1,2,3,4]
+  5 in [1,2,3,4]
 
+will return true as value 5 is not contained in sequence[1,2,3,4]
+  5 not in [1,2,3,4]
 
+6. The while loops 
+A while loop is a conditional loop that will repeat the instruction within itself as long as conditional remains true (boolean true or truth value ). The general from of python while loop is :
+  
+  while <logicalexpression>:
+    loop-body
 
+EX :
+a=0 #intailise
+while a>0:  #condition
+    print("hello",a)
+    a=a-3 #increment or decrement 
+print("loop is over ")
 
+7. Jump statement - break and continue 
+Python offers two jump statement to be used within loops to jump out of loop-iterations . These are break and continue
 
+8. Break statement :
+We use in both loops . The break statement enables a program to skip over a part of the code break statement terminates the very loop it lies within execution remains at the statemnt immeadialty
+
+9. Continue statement :
+The continue statement skip the value on the particular value 
+
+10. Nested loops :
+It means a loops has another loop , first complete inner loop and then complete outer loops
+Ex: 
+for i in range(1,6):
+    for j in range(1,i):
+        print("*", end="")
+    print()
+
+*
+* *
+* * *
+* * * *
 
 
 
