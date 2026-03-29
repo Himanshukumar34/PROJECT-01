@@ -1,9 +1,21 @@
 <!--                       PROBLEM SOLVEING SKILLS                    -->
-1.
+1. Introduction =
+we usually use the terms to analyse the problem and solve using pythona and other lanaguages .
+
+2.steps for problem solving = 
+2.1 Analyzing the problem 
+2.2 Debugging an algortihm 
+2.3 coding 
+2.4 Testing and debugging 
 
 
+3. Analyzing the problem = firstly we determine and understand the problem .
 
+4. Developing an algorithm =  It is essential to devise a soltuion before writing a program code for a given problem . The solution is respresented i natural language and is called an algorithm . like a dish receipe etc.
 
+5. coding = After the algorithm  we need to convert the algorithm into the format which can be understood by the computer to generate the desired solution .you code any langauge 
+
+6. Testing and debugging = Test the software its work properly or not if it is not working fix the code again .software industry follows standarised testing methods like unit or componnent testing , integration testing , system testing and acceptance testing .we need to update on the code time to time .
 
 
 
