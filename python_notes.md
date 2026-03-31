@@ -137,7 +137,7 @@ Q.9 what is python in comments ?
 Ans = comments means that which does not execute its is only read purpose .
 ex =  # this is comment 
 """ this is 
-multi line command """
+multi line comments"""
 
 
 Q.10 what is operators and how many types ?
@@ -243,7 +243,7 @@ Ans Escape	Meaning
  
 
 <!--                                                                                 STRING IN PYTHON                                                       -->
-1. strings in python = string is datat type that stores a sequence of character in double and single inverted charcter. strings is immutbale.  
+1. strings in python = string is data type that stores a sequence of character in double and single inverted charcter. strings is immutbale.  
 Ex :
 1. "himmanshu"
 2. "133"
@@ -356,7 +356,7 @@ str=" I am a coder"
 13. what is join function in strings =
 words ="hello world"
 
-result = ",".join(words)
+result = " ".join(words)
 print(result)
 
 
@@ -442,7 +442,7 @@ elif condition :
 else :
    statements 
  
-FROM2
+FROM2-
 
 if condition :
     statement 
@@ -528,16 +528,41 @@ for i in range(1,6):
 * * * *
 
 
+<!--                                                    PYTHON MODULES 
+
+   -->
+1. python_modules= A python module is a file which contains some variables constants ,some function . objects , etc defined which can be used in other python programs 
+
+2. python library = A library is collection of module in python.
 
 
+3. MATH module = you need to  first import to your program for our use in python code 
+
+3.1 math.ceil() # math.ceil(1.13) gives 2.0
+3.2 math.sqrt() #give root of the given number
+3.3 math.exp()  #give exponential
+3.4 math.floor() 
+3.5 math.log(num, [base])
+3.6 math.pow()
+3.7 math.sin()
+3.8 math.cos()
+3.9 math.tan()
+3.10 math.degrees() #radian to degree
+3.11 math.radians() #convert degree to radian
 
 
+4. Random_modules =python random modulees generate random numbers by random modules. 
+
+4.1 random()
+4.2 randint()
+4.3 randrange(start ,stop ,step)
 
 
+5. statisctics modules in python= The statistics  module  of python calculate mean , median , mode .
 
-
-
-
+5.1 statistics.mean()
+5.2 statistics.median()
+5.3 statistics.mode()
 
 
 

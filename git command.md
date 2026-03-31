@@ -6,7 +6,7 @@ command for git
 
  1. cd--------------- command for change directory
 
-2\. pwd--------- present working directory
+2\. pwd--------- present working directory(folder)
 
 3\. git config --list ---------------for check name of the folder and email id
 
