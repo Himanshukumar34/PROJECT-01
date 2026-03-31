@@ -1,54 +1,3 @@
-<!--                       PROBLEM SOLVEING SKILLS                    -->
-1. Introduction =
-we usually use the terms to analyse the problem and solve using pythona and other lanaguages .
-
-2.steps for problem solving = 
-2.1 Analyzing the problem 
-2.2 Debugging an algortihm 
-2.3 coding 
-2.4 Testing and debugging 
-
-
-3. Analyzing the problem = firstly we determine and understand the problem .
-
-4. Developing an algorithm =  It is essential to devise a soltuion before writing a program code for a given problem . The solution is respresented i natural language and is called an algorithm . like a dish receipe etc.
-
-5. coding = After the algorithm  we need to convert the algorithm into the format which can be understood by the computer to generate the desired solution .you code any langauge 
-
-6. Testing and debugging = Test the software its work properly or not if it is not working fix the code again .software industry follows standarised testing methods like unit or componnent testing , integration testing , system testing and acceptance testing .we need to update on the code time to time .
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -85,6 +34,16 @@ Ans = 1. python is simple and easy
 3. high level language 
 4. developed by guido van Rossum 
 5 . portable
+
+
+Q.3 what is tokens in python ?
+Ans = token is a smallest individual units in python.
+There are 5 types :
+1. keywords
+2. identifiers
+3. literals
+4. operators
+5. punctuators
 
 
 Q.3 what is python character set ?
@@ -198,6 +157,10 @@ x /= 2   # x = x / 2 -->
 4.1 and 
 4.2 not 
 4.3 or
+
+5. Membership operators 
+5.1 in 
+5.2 not in 
 
 
 Q.11 what is conversion in python ? how many types of conversion ?
@@ -563,6 +526,12 @@ for i in range(1,6):
 5.1 statistics.mean()
 5.2 statistics.median()
 5.3 statistics.mode()
+
+
+
+<!--                                                      Python basics                                     -->
+
+
 
 
 
