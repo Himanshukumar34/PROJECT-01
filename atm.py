@@ -1,33 +1,44 @@
 import random 
 print("welcome to sasta atm")
-pin=6696968
+pin=454545
+
+current_balance=10000
 while True:
-      num1=int(input("Enter your pin"))
-      if num1==pin:
+      num2=int(input("Enter your pin :"))
+      if num2==pin:
         print("your password is correct ")
         break
       else:
          print("Your password is invalid")
-current_balance=10000
+
+
 def check_balance():
-  
     print(f" your balance is {current_balance}")
+
+
 def deposit_money():
-    deposit=int(input("Enter your amount: "))
-    if num1>10000 or num1<500:
+    global current_balance
+    num1=int(input("Enter your amount: "))
+    if num1>=10000 or num1<=500:
         print(f"your limit is cross ")
     else:
-        current_balance+=deposit
-    +  print(f"succesfully deposit{current_balance}")
+        current_balance+=num1
+        print(f"succesfully deposit{current_balance}")
+
+
+
 def withdraw_money():
+    global current_balance
     withdraw=int(input("Enter your amount :"))
-    if withdraw>10000 or withdraw<500:
+    if withdraw>=10000 or withdraw<=500:
         print(f"your amount is invalid ")
     elif withdraw>current_balance:
         print("you have not sufficent money")
     else:
         current_balance-=withdraw
         print("succesfully withdraw")
+
+
 while True:
     print("1.check_balance")
     print("2.Deposit_money")

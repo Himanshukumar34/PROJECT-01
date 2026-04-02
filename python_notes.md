@@ -35,6 +35,7 @@ Ans = 1. python is simple and easy
 4. developed by guido van Rossum 
 5 . portable
 
+Q.5 what is global in python
 
 Q.3 what is tokens in python ?
 Ans = token is a smallest individual units in python.
