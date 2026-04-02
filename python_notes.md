@@ -75,7 +75,7 @@ Q.6 what is data types?
 Ans=   1. integers =1,2,3,4 
 2. strings="himanshu ", 'himanshu', ''' himanshu '''
 3. float = 878.7
-4. Boolean = True or False
+4. Boolean = True(1) or False(0)
 5. none = means empty value  . Example : num1 =none .
 
 
@@ -526,49 +526,5 @@ for i in range(1,6):
 5.1 statistics.mean()
 5.2 statistics.median()
 5.3 statistics.mode()
-
-
-
-<!--                                                      Python basics                                     -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
