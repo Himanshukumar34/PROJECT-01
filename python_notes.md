@@ -1,3 +1,183 @@
+<!--                                                                 Basics of python                                                                                              -->
+
+1. What is data types ?
+Ans= data can be any types e.g integer , real . string etc
+Numeric → int, float, complex
+Text → str
+Sequence → list, tuple, range
+Mapping → dict
+Set → set, frozenset
+Boolean → bool
+Binary → bytes, bytearray, memoryview
+None → NoneType
+
+2. Numbers = As it is clear by the name the number data types are used numeric values in python .
+
+2.1  Intergers = without decimal all the integers
+2.2 floating point number = decimal numbers 
+2.3 complex number = there are one a real number and one is imaginary number . 2+ 3i   we use z.real() use for accesing the real value and z.img() use for accessing the z.img()
+
+
+3. strings = A string data types in python hold any value in double quiotes 
+Ex : "acbs" , "3435" ,"????" ,"TRUE" etc
+
+4. List = a=["himanshu","true"]
+
+5. Dictionary = { "name" : 34}
+
+6. Tuples = ("hiamsnuh", 65 ,"krishna")
+
+
+7. Mutable and immutable types = mutable means changeable and immutable means unchangebale .
+Immutables types 
+1. Integers
+2. floating 
+3. booleans 
+4. strings 
+5. tuples 
+
+Mutable types
+1. sets 
+2. list 
+3. dictionary
+
+8. memory = memory of any characters value .
+id(5) #65654
+
+1. Immutable data types = The immutable types are those that can never change their value in place .In python the following types are immutable : integers , floating point numbera , booleans , strings . tuples .
+ 
+Lets us understand the concept of immutable types . In order to understand this , consider the code below  
+
+Sample code 5.1 
+p=5 
+q=p
+r=5
+ # will give 5,5,5 sab ke andar 5 hi store hia beacuse every number has memory 
+
+Explain :
+id(p)
+# 45454545
+
+id(q)
+# 45454545
+
+id(r)
+# 45454545
+
+so now ulitimatley say that all immutable means the number is store there location the location is not change so it is called immutable data types 
+and id use for checking memory of any number .
+
+one more example:
+p=10 
+r=7
+q=r
+
+id(10)
+# 676767
+
+id(p)
+# 676767
+
+id (7)
+# 787878
+
+id(q)
+# 787878
+
+2. Mutable data types = The mutable types are those whose values can be changes in place . Only three types are mutable in python . These are list , dicionaries  and sets .
+
+To change a member of a list , you may write :
+chk=[2,4,6]
+chk[1] 40
+It will make the list namely chk as [2,4,6]
+Explain :
+chk = [2,4,6]
+id(chk)
+# 54545454
+
+chk[1]=50
+id(chk)
+# 54545454
+
+
+📊 Key Differences
+Feature	Mutable	Immutable
+Changeable	✅ Yes	❌ No
+Memory	Same object modified	New object created
+Speed	Slightly slower	Faster
+Safe	Less safe	More 
+
+5. Varible literals = python is an object oriented language . python calls every entity that stores any values or any types of data as an objects
+
+5.1 The type of an objects = give type of any objects 
+5.2 The id of an objects  = gives memory of any elements 
+5.3 the values of an objects = gives output of anything
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
