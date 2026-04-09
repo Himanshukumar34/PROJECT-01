@@ -184,12 +184,98 @@ Relational operators work on the following principles :
 
 EX:
 1. is = a is b  #  return true if both memory location is same .
-2. is not = a is not b # return false if both memory loaction is not same.  
+2. is not = a is not b # return false if both memory loaction is same.  
 
-4. logical operator 
-4.1 and 
-4.2 not 
-4.3 or
+4. logical operator = Pyhton combine three logical operators to combine existing expressions. These are or , and , not .
+4.1 The or operators : The or operators two combines two expressions , which make it operands . The or operator works in these ways .
+1. Relational expressions as operands 
+2. Numbers or strings or lists as operands .
+
+ex :
+X          Y       X or Y
+False    false     false   #it means when two condtion is false its conditon is false 
+false    true      true    # same as the condtion is true 
+true     false     true
+true     true      true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!--                                                                                 STRING IN PYTHON                                                       -->
 1. strings in python = string is data type that stores a sequence of character in double and single inverted charcter. strings is immutbale.  
