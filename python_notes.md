@@ -44,12 +44,22 @@ Ans = 1. python is simple and easy
 2. free and open source
 3. high level language 
 4. developed by guido van Rossum 
-5 . portable
+5. portable
 
-Q.5 what is global in python
+Q.5 what is global in python?
+Ans A global variable is a variable that is:
+Defined outside any function
+Can be accessed anywhere in the program
+Ex: 
+x = 10   # global variable
+
+def show():
+    print(x)
+
+show()   # Output: 10
 
 Q.3 what is tokens in python ?
-Ans = token is a smallest individual units in python.
+Ans = Token is a smallest individual units in python.
 There are 5 types :
 1. keywords
 2. identifiers
@@ -58,21 +68,10 @@ There are 5 types :
 5. punctuators
 
 
-Q.3 what is python character set ?
+Q.7 what is python keywords ?
 
-Ans = 1. letters A to Z ,a to z.
-2. Digits - 0 to 9.
-3. special symbols -,+,* etc .
-4. white spaces - blank spaces , tab , carriage return , new line 
-5. other characters - python can process all ascii and Unicode characters .
-
-Q.4 What is variables ?
-
-Ans = A variables means stores a values and store any value .
-or means assign the value
-example -- name = shraddha 
-age = 23 
-price = 25.99 etc
+Ans = and , else , in , return  as except is True  assert finally lambda try break false nonlocal while with none for class continue from not yield def global or del if pass elif import raise. keywords are reserved words in python means we can not use this word
+because already a value reserved in python .
 
 Q.5 what is identifiers?
 
@@ -81,35 +80,6 @@ so myvariable , variable_1 , variable_for_print all are valid python identifiers
 2. An identifiers can not start with digit . so while variable1 is valid , 1variable is not valid .
 3. we can not use special symbols like !,#,@,%,$ etc in our idnetifers .
 4. Identifier can be of any length .
-
-Q.6 what is data types?
-
-Ans=   1. integers =1,2,3,4 
-2. strings="himanshu ", 'himanshu', ''' himanshu '''
-3. float = 878.7
-4. Boolean = True(1) or False(0)
-5. none = means empty value  . Example : num1 =none .
-
-
-Q.7 what is python keywords ?
-
-Ans = and , else , in , return  as except is True  assert finally lambda try break false nonlocal while with none for class continue from not yield def global or del if pass elif import raise. keywords are reserved words in python means we can not use this word
-because already a value reserved in python .
- 
-
-Q.8 what is case sensitive in python how to relate them ?
-
-Ans = python is case  sensitive language means capital A or small a are two separate thing while sql is not a case sensitive .
-Example :  let a apple variable1 and a Apple variable2  ye dono alag alag variables hai nah ki ek variable hai . 
-
-
-Q.9 what is python in comments ?
-
-Ans = comments means that which does not execute its is only read purpose .
-ex =  # this is comment 
-""" this is 
-multi line comments"""
-
 
 Q.10 what is operators and how many types ?
 
@@ -175,6 +145,46 @@ x /= 2   # x = x / 2 -->
 5.2 not in 
 
 
+Q.3 what is python character set ?
+
+Ans = 1. letters A to Z ,a to z.
+2. Digits - 0 to 9.
+3. special symbols -,+,* etc .
+4. white spaces - blank spaces , tab , carriage return , new line 
+5. other characters - python can process all ascii and Unicode characters .
+
+Q.4 What is variables ?
+
+Ans = A variables means stores a values and store any value .
+or means assign the value
+example -- name = shraddha 
+age = 23 
+price = 25.99 etc
+
+
+
+Q.6 what is data types?
+
+Ans=   1. integers =1,2,3,4 
+2. strings="himanshu ", 'himanshu', ''' himanshu '''
+3. float = 878.7
+4. Boolean = True(1) or False(0)
+5. none = means empty value  . Example : num1 =none .
+
+Q.8 what is case sensitive in python how to relate them ?
+Ans = python is case  sensitive language means capital A or small a are two separate thing while sql is not a case sensitive .
+Example :  let a apple variable1 and a Apple variable2  ye dono alag alag variables hai nah ki ek variable hai . 
+
+
+Q.9 what is python in comments ?
+Ans = comments means that which does not execute its is only read purpose .
+ex =  # this is comment 
+""" this is 
+multi line comments"""
+
+
+
+
 Q.11 what is conversion in python ? how many types of conversion ?
 Ans = conversion means convert data types into another data types like int to string 
 
@@ -225,9 +235,7 @@ Numeric → int, float, complex
 Text → str
 Sequence → list, tuple, range
 Mapping → dict
-Set → set, frozenset
 Boolean → bool
-Binary → bytes, bytearray, memoryview
 None → NoneType
 
 2. Numbers = As it is clear by the name the number data types are used numeric values in python .
@@ -307,7 +315,7 @@ id(q)
 
 To change a member of a list , you may write :
 chk=[2,4,6]
-chk[1] 40
+chk[1]=40
 It will make the list namely chk as [2,4,6]
 Explain :
 chk = [2,4,6]
@@ -633,6 +641,8 @@ while a>0:  #condition
     print("hello",a)
     a=a-3 #increment or decrement 
 print("loop is over ")
+
+NOTE : agar apne yaha per conditon thi toh toh increment decrement karana padega aur agar true hai toh voh ek infinity loop hai voh toh break statment se hi bahar ayega .
 
 7. Jump statement - break and continue 
 Python offers two jump statement to be used within loops to jump out of loop-iterations . These are break and continue
