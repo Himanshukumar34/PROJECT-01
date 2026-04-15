@@ -5,8 +5,7 @@ new2.py
 *.png
 *.txt
 *.png
-html_css_projects/
-sql_projects/
+*.md
 
 
 
