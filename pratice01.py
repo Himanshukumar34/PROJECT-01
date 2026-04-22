@@ -124,11 +124,34 @@
 # 1 3 5 
 # 1 3 5 7
 
-for i in range(0,7,2):
-    for j in range(0,i):
-      print(j, end="\n")
+# for i in range(0,7,2):
+#     for j in range(0,i):
+#       print(j, end="\n")
     
 
+# # Q.6 write a program to find the sum of the series ?
+
+# num1=int(input("Enter the value of x :"))
+# n =int (input("Enter valle of n: "))
+# sum=0
+# for i in range(0,n+1):
+#      sum+=num1**i
+
+# print(sum)
+
+# Q,11 write a program to input the value of x and n and  print the sum of the series ?
+# x=int(input("Enter your x  :"))
+# n=int(input("Enter your x  :"))
+
+# Q.12  write a progam to find the sum of digit of an integers numbers , input by the user ?
+num1=input("Enter the value :")
+count=[]
+for i in num1:
+    count.append(i)
+num=0
+for i in count:
+    num+=i
+print( num1)
 
 
 
@@ -160,3 +183,21 @@ for i in range(0,7,2):
 # # Q.4 write a program to print that ?
 # for i in range()
 
+
+
+
+
+
+
+
+
+
+
+#                                            STRING IN PYTHON
+# Examples
+# q.1 Program to read to a string and display it in the from?
+# user=str(input("Enter your first name :"))
+# count=0
+# for i in user:
+#     for j in i:
+#         print(j)
