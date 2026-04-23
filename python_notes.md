@@ -781,3 +781,32 @@ words ="hello world"
 
 result = " ".join(words)
 print(result)
+
+
+<!--                                               List in python                           - - >
+
+1. List = list is a type of sequence like strings and tuples but it differs from them iin the way that list are mutable but strings and tuples are immutable .
+
+Ex: l1=["himanshu ","class",false, 45]
+
+2. Creating and accessing lists = A list is a standard data type of python that can store a sequence of values belonging to any type . the list are depicted through square brackets e.g following are some lists in python .
+
+Ex:
+[] #list with no number , empty list 
+[1,2,4] # list of integers 
+[1,2,5,3.7,9] #list of integers and floating points 
+['a','b','c'] # list of characters 
+['a', 1, 'b', 3.5 ,'zero'] #list of mixed value type 
+
+A. Creating lists =To create a list , put a number of expressions in square brackets .That is use square brackets to indicate the start and end of the list , and seperate the items by commas . For examples 
+[2,4,6]
+["adf","reg"]
+[]
+num1=list() # create a empty list also 
+num2=list(34,45,44,"afkd")  #create a long list also 
+
+3.Nested list =A list can have an element in it which itself is a list . Such a list  is called nested list . e.g 
+L1 =[3,4,[5,6],7] 
+L1 is a nested list with four elements : 3,4 ,[5,6] and 7. L1[2] elements is a 
+list [5,6] . length of  L1 is 4 as it counts [5,6] as one elements . Also as L1 [2] is a list which means L1[2][0] will give 5 and L1 [2][1] will give 6. 
+
