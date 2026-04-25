@@ -810,3 +810,5 @@ L1 =[3,4,[5,6],7]
 L1 is a nested list with four elements : 3,4 ,[5,6] and 7. L1[2] elements is a 
 list [5,6] . length of  L1 is 4 as it counts [5,6] as one elements . Also as L1 [2] is a list which means L1[2][0] will give 5 and L1 [2][1] will give 6. 
 
+
+7. 
