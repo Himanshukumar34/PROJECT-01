@@ -811,4 +811,58 @@ L1 is a nested list with four elements : 3,4 ,[5,6] and 7. L1[2] elements is a
 list [5,6] . length of  L1 is 4 as it counts [5,6] as one elements . Also as L1 [2] is a list which means L1[2][0] will give 5 and L1 [2][1] will give 6. 
 
 
-7. 
+7. Create a list = you can also use the built in list type objecct to create lists 
+from sequnece as per the synatax given below :
+l1=list(seqence)
+
+you create a list by this function also .
+
+Ex:
+>>> list1=list(input("Enter your passwrd"))
+Enter your passwrd 55666
+>>> print(list1)
+[' ', '5', '5', '6', '6', '6'] # the output was coming in list form 
+
+
+8. Accesing list element = There also you apply indexing and slicing .
+Ex ;
+L1=[45,56,45,66,66]
+print(len(L1))# length of string 
+print([0]) #  access of list 
+print([1:0]) # accesing a part of list 
+
+9. Membership oerators = list have also in and not in . 
+Ex : list1=[45,6,64,66,44]
+print(457 in list1)
+print(55 not in list1 )
+
+10. Concantenation and replication operators = There also apply con.. and repl.. same as string .
+Ex:
+l1=[34,44,34]
+l2=[34,44,34,68]
+l1+l2 
+l1*2
+
+11. Differnece between list and strings = strings is immutbale and list is mutable .
+Ex:
+string
+s="hello"
+s=" how are you "
+
+l= ["hello"]
+l=["hello", "how" , "are" , "you"]
+
+12. Tranversing a list = Transversing a list also means the same and same is the tool for it  the python loops . That is why sometimes we call a transversak as looping over a sequence .
+The for loop makes t easy to transerse or loop over  the itmes in a list. 
+
+Ex :
+l1 = [34,44,34 ]
+for i in l1;
+print(i)
+
+13 . Comparing a list = you can compare two lists using standard comparsion operators of python (==,=>,>=). python internally compares individual elements lf list and tuples in lexicographical order . This means that to compare equal , each coreesponding elements must compare equl and the two sequnece must be of the same type having comparable types of value .
+
+Ex :
+[1,3,5]==[3,5,6] #false
+[1,2,3]>= [2,2,3] # false beacuse coresponding element 1 and 2 and 2 is greator 
+[45,46,43]<= [34,55,34] # again false becuase 45 and 34
