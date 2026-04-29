@@ -798,14 +798,14 @@ Ex:
 ['a','b','c'] # list of characters 
 ['a', 1, 'b', 3.5 ,'zero'] #list of mixed value type 
 
-A. Creating lists =To create a list , put a number of expressions in square brackets .That is use square brackets to indicate the start and end of the list , and seperate the items by commas . For examples 
+2.A  Creating lists =To create a list , put a number of expressions in square brackets .That is use square brackets to indicate the start and end of the list , and seperate the items by commas . For examples 
 [2,4,6]
 ["adf","reg"]
 []
 num1=list() # create a empty list also 
 num2=list(34,45,44,"afkd")  #create a long list also 
 
-3.Nested list =A list can have an element in it which itself is a list . Such a list  is called nested list . e.g 
+2.B Nested list =A list can have an element in it which itself is a list . Such a list  is called nested list . e.g 
 L1 =[3,4,[5,6],7] 
 L1 is a nested list with four elements : 3,4 ,[5,6] and 7. L1[2] elements is a 
 list [5,6] . length of  L1 is 4 as it counts [5,6] as one elements . Also as L1 [2] is a list which means L1[2][0] will give 5 and L1 [2][1] will give 6. 
@@ -828,8 +828,8 @@ Enter your passwrd 55666
 Ex ;
 L1=[45,56,45,66,66]
 print(len(L1))# length of string 
-print([0]) #  access of list 
-print([1:0]) # accesing a part of list 
+print(L1[0]) #  access of list 
+print(L1[1:0]) # accesing a part of list by slicing 
 
 9. Membership oerators = list have also in and not in . 
 Ex : list1=[45,6,64,66,44]
@@ -865,4 +865,30 @@ print(i)
 Ex :
 [1,3,5]==[3,5,6] #false
 [1,2,3]>= [2,2,3] # false beacuse coresponding element 1 and 2 and 2 is greator 
-[45,46,43]<= [34,55,34] # again false becuase 45 and 34
+[45,46,43]<= [34,55,34] # again false becuase 45 and 34 .
+
+
+14. Slicing in list = List slicies , like string slices are the sub  part of a list extracted out you can use indexes of list elements to create list slces as per following format : 
+seq = L[start : stop]
+seq= L[start: stop : step ]
+
+Ex: list =[12,34,55,64,53,54,44,34]
+seq= list[3:-3]
+print(seq) #64 , 53
+seq= list[1:6:2] 
+print(seq) #34, 64, 54
+
+15.Using slices for list modification = you can use slices to overwrute  one or more list elements with one or more other elements . 
+Ex :
+lst= ["one", "two", "three"]
+lst[0:2] = [3,44]
+print(lst) # 3, 44, three
+lst[0:2] ="a"
+print(lst) #"a" ,  " three"
+
+L1 = [1,2,3]
+L1[2: ] ="604"
+print(L1) # 1,2,'6','0','4'
+
+L1[2: ] =444
+# this is a generate a type error 
