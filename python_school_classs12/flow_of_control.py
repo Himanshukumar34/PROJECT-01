@@ -143,15 +143,15 @@
 # x=int(input("Enter your x  :"))
 # n=int(input("Enter your x  :"))
 
-# Q.12  write a progam to find the sum of digit of an integers numbers , input by the user ?
-num1=input("Enter the value :")
-count=[]
-for i in num1:
-    count.append(i)
-num=0
-for i in count:
-    num+=i
-print( num1)
+# `# Q.12  write a progam to find the sum of digit of an integers numbers , input by the user ?
+# num1=input("Enter the value :")
+# count=[]
+# for i in num1:
+#     count.append(i)
+# num=0
+# for i in count:
+#     num+=i
+# print( num1)`
 # #                                                                          NCERT GUIDLINES 
 # # Q.1 write a program that prints minimum and maximum of five numbers eneterd by the user?
 # a=int(input("Enter your num1 :"))
