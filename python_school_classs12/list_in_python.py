@@ -1,12 +1,14 @@
-#solved examples 
-##Q.1 Program to print elements of a list ['q','w','e','r','t','y'] in seprate line along the elements both indexes positive and negative?
 
-# L=['q','w','e','r','t','y']
-# Length=len(L)
-# for i in range(Length):
-#    print(f"At indexes {i} {L[i]}")
+# # Example
+# L1=list("hello")
+# print(L1)
 
 
-#Q.2 Program to find minimum elements from a list of element along with its index in the list ?
-lst=eval(input("Enter list :"))
-print(lst)
+# l2=[3,5,5,6,[34,45],9]
+# print(l2[4][0])
+
+# L=[34,55,46,35,36]
+# 34 in L
+# # output is False
+# 35 not in L
+# # output is false
