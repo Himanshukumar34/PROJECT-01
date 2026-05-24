@@ -45,3 +45,28 @@
 
 # Q.4 Write a program that asks the user to input a number  a list to be appended to an exisiting list . Wether the user enters a single number or a list of numbers , the program 
 # should append the list accordingly ?
+
+# Q.5 Program to find minimum element from a list of elements along with its index in 
+# the list?
+
+# Q.6 program to calculate mean of agiven list of members ?
+# lst1=eval(input("Enter a list :"))
+# length=len(lst1)
+# count=0
+# for i in range(0,length):
+#     count+=lst1[i]
+
+# num2=count/length
+# print("Given list :",lst1)
+# print("The mean of the given list is :",num2)
+
+# Q.6 Program to search for an element in a given list of numbers ?
+lst1=eval(input("Enter your list: "))
+search=int(input("Enter elements to be searched for : "))
+length=len(lst1)
+for i in range(0,length):
+    if search==lst1[i]:
+        print(search,"found at index",i)
+        break
+else:
+    print(search,"not found in given list ")
