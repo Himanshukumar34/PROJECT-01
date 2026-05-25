@@ -3,6 +3,9 @@
 # L1=list("hello")
 # print(L1)
 
+L=list("3232")
+print(L)
+
 
 # l2=[3,5,5,6,[34,45],9]
 # print(l2[4][0])
@@ -13,7 +16,7 @@
 # 35 not in L
 # # output is false
 
-# SOLVED EXAMPLES
+#                                                                               SOLVED EXAMPLES
 # Q.1 Program to print elements of a list[q,w,e,r,t,y] in sepreate lines aloong with elements both indexes ( positive and negative indexes)?
 # num1=['q','w','e','r','t','y']
 # for i in range(len(num1)):
@@ -46,6 +49,55 @@
 # Q.4 Write a program that asks the user to input a number  a list to be appended to an exisiting list . Wether the user enters a single number or a list of numbers , the program 
 # should append the list accordingly ?
 
+
+# Q.5 Write a program that display options for inserting or deleting elements in a list . If the user chosses a deletion option , display a submenu and ask if element 
+# is to be deleted with value or by using its postion or a list slice is to be deleted ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Q.5 Program to find minimum element from a list of elements along with its index in 
 # the list?
 
@@ -61,12 +113,12 @@
 # print("The mean of the given list is :",num2)
 
 # Q.6 Program to search for an element in a given list of numbers ?
-lst1=eval(input("Enter your list: "))
-search=int(input("Enter elements to be searched for : "))
-length=len(lst1)
-for i in range(0,length):
-    if search==lst1[i]:
-        print(search,"found at index",i)
-        break
-else:
-    print(search,"not found in given list ")
+# lst1=eval(input("Enter your list: "))
+# search=int(input("Enter elements to be searched for : "))
+# length=len(lst1)
+# for i in range(0,length):
+#     if search==lst1[i]:
+#         print(search,"found at index",i)
+#         break
+# else:
+#     print(search,"not found in given list ")
