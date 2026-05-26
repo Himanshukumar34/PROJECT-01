@@ -3,8 +3,8 @@
 # L1=list("hello")
 # print(L1)
 
-L=list("3232")
-print(L)
+# L=list("3232")
+# print(L)
 
 
 # l2=[3,5,5,6,[34,45],9]
@@ -112,7 +112,7 @@ print(L)
 # print("Given list :",lst1)
 # print("The mean of the given list is :",num2)
 
-# Q.6 Program to search for an element in a given list of numbers ?
+# Q.7 Program to search for an element in a given list of numbers ?
 # lst1=eval(input("Enter your list: "))
 # search=int(input("Enter elements to be searched for : "))
 # length=len(lst1)
@@ -122,3 +122,23 @@ print(L)
 #         break
 # else:
 #     print(search,"not found in given list ")
+
+# Q.8 Program to count frequency of a given element in a list of numbers ?
+# lst1=eval(input("Enter list: "))
+# search=int(input("Enter elements :"))
+# count=0
+# length=len(lst1)
+# for i in range(0,length):
+#     if search== lst1[i]:
+#         count+=1
+
+
+# print(f"{search} element frequency is {count}")
+
+# Q.9 Program to find frequencies of all elements of a list . Also print the list of 
+# unique elements in the list and duplicate elements in the given list ?
+lst1=eval(input("Enter your list :"))
+count=0
+length=len(lst1)
+for i in range(0,length):
+    if lst1[i]==
