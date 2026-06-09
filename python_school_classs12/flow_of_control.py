@@ -1,3 +1,75 @@
+# Chatgpt task 
+# Q.1 check whether a number is positive , negative or zero?
+# num1=int(input("Enter your number to check it it positive , negative or zero :"))
+# if num1>0:
+#      print("It is postive number ")
+# elif num1<0:
+#      print("It is negative number")
+# else:
+#      print("It is zero")
+
+# Q.2 Take marks as input and print grade ?
+# num1=int(input("Enter your marks for calcluating grade :"))
+# if num1>=90:
+#     print("Grade A")
+# elif num1<89 and num1>75:
+#     print("Grade B")
+# elif num1>50 and num1<74:
+#     print("Grade c")
+# else:
+#     print("Fail")
+
+# Q.3 Find the largest of 3 numbers ?
+# num1=int(input("Enter your number 1 :"))
+# num2=int(input("Enter your number 2 :"))
+# num3=int(input("Enter your number 3 :"))
+# if num1>num2 and num1>num3:
+#     print("The largest number is ",num1)
+# elif num2>num1 and num2>num3:
+#     print("The largest number is ",num2)
+# else:
+#     print("The largest number is ",num3)
+
+# Q.4 Check whether is year is a leap year or not?
+# homework
+
+# Q.5 Print the sum of first n natural number  ?
+# n=int(input("Enter your n natural number :"))
+# sum=0
+# for i in range(1,n+1):
+#     sum+=i
+# print(sum)
+    
+# Q.5 count how many numbers between 1-100 are divisble by 3?
+num1=6
+count=0
+for i in range(1,num1+1):
+    if num1%3==0:
+        count+=1
+print(count)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # #                                                           FLOW OF CONTROLS
 
 #                                                               EXAMPLES
@@ -46,9 +118,12 @@
 
 # Q.4 program to calculate the foactorial of a number ?
 # num1=int(input("Enter your num1: "))
-# count=0
+# count=1
+# fact=0
 # for i in range(1,num1+1):
-#     num1*num1
+#      num1=count*i
+# print(num1)
+
 
 # Q.5 program to calculate and print the sums of even  and  odd intergers of the first n natural numbers ?
 # num1 = int(input("Enter your natural number : "))
@@ -152,7 +227,9 @@
 # for i in count:
 #     num+=i
 # print( num1)`
-# #                                                                          NCERT GUIDLINES 
+
+
+#                                            NCERT GUIDLINES 
 # # Q.1 write a program that prints minimum and maximum of five numbers eneterd by the user?
 # a=int(input("Enter your num1 :"))
 # b=int(input("Enter your num1 :"))
@@ -164,8 +241,6 @@
 
 # Q.3 write a program to find the sum of digit of an integers number , input by the user? 
 # num1=int(input("Enter your numbers :"))
-
-
 
 
 

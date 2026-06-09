@@ -13,4 +13,4 @@ for i in range(0,length):
 
 t1=("toyota",'honda','gm','ford','BMW','volswagin','mercedes','ferrai','porsche')
 for i in range(2,7):
-    print(f"index at{i} = {t`1[i]}")
+    print(f"index at{i} = {t1[i]}")
