@@ -40,21 +40,48 @@
 #     sum+=i
 # print(sum)
     
-# Q.5 count how many numbers between 1-100 are divisble by 3?
-num1=6
-count=0
-for i in range(1,num1+1):
-    if num1%3==0:
-        count+=1
-print(count)
+# # Q.5 count how many numbers between 1-100 are divisble by 3?
+# num1=6
+# count=0
+# for i in range(1,num1+1):
+#     if num1%3==0:
+#         count+=1
+# print(count)
+
+# Q.7 Input a character and check whether it is a vowels or constonant ?
+# num1=str(input("Enter character to check it is vowelsa or constonant :"))
+# vowels=["a","e","i","o","u"]
+# v1=0
+# c1=0
+# for i in num1:
+#     if i in vowels:
+#         v1+=1
+#     else:
+#        c1+=1
+# print("total number of vowels",v1)
+# print("total number of consonant",c1)
+
+# Q.8 check whether a number is a palindrome ?
+# p1=str(input("Check the name is palindrome or not :")) #approach01
+# if p1==p1[ : :-1]:
+#     print("It is an palindrome ")
+# else:
+#     print("It is not an palindrome ")
+
+#approach02
+# p1=str(input("Check the name is palindrome or not :"))
+# l1=[]
+# l1.append(p1)
+# l1.reverse()
+# print(l1)
+# num1="".join(l1)
+# if p1==num1:
+#     print("It is a palindrome ")
 
 
-
-
-
-
-
-
+# Q.9 Print fibonacci series up to n terms ?
+num1=int(input("Enter where you want to make fibonacci series :"))
+if 
 
 
 
