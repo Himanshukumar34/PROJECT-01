@@ -80,9 +80,11 @@
 
 
 # Q.9 Print fibonacci series up to n terms ?
-num1=int(input("Enter where you want to make fibonacci series :"))
-if 
+# num1=int(input("Enter where you want to make fibonacci series :"))
+# for i in range(1,len(num1)+1):
 
+
+         
 
 
 
@@ -98,9 +100,12 @@ if
 
 
 # #                                                           FLOW OF CONTROLS
+#   EXAMPLES
+#                 
+#Q=4.1 Program to accept three integers and print the largest of the three . Make use only if statement ?
 
-#                                                               EXAMPLES
-# Q.1 program that inputs three numbers and calculates two suma as per this .
+
+# 4.3 program that inputs three numbers and calculates two suma as per this .
 # sum1 as the sum of all input numbers 
 # sum2 as the sum of non duplicate  numbers if there are duplicatees numbers in the input ignores them ?
 # a=int(input("Enter your num1 :"))
@@ -118,7 +123,7 @@ if
 # print("sum of non duplicate numbers is ", sum2)
 
 
-# Q.2 program to find the multiples of a numbers the divisor out of the given five numbers?
+# 4.5  program to find the multiples of a numbers the divisor out of the given five numbers?
 # a=int(input("Enter your num1 :"))
 # b=int(input("Enter your num1 :"))
 # c=int(input("Enter your num1 :"))
@@ -135,6 +140,28 @@ if
 #     print(f",Multiple of {divisor } is {d}")
 # if e%divisor == 0:
 #     print(f",Multiple of {divisor } is {e}")
+
+
+# 4.6 Program to display a menu for calculating area of a circle or perimeter of a circle?
+while True:
+    radius=bool(input("Enter your radius of circle :"))
+    print("1.Calculate area")
+    print("2.Calculate perimeter")
+    choice = int(input("Enter your choice :"))
+    if choice==1:
+        print(3.14159*radius*radius)
+    elif choice==2:
+        print(2*3.14*radius)
+
+
+
+
+
+
+
+
+
+
 
 # Q.3 program to prints the sum of natural numbers betweemn 1 to 7 . print the sum progressively i.e after adding each natural number , print sum so far ?
 # count=0
@@ -184,6 +211,9 @@ if
 #     print("IT is a prime number ")
 # else:
 #     print("It is not a prime number ")
+
+# Program that reads three numbers (integers ) and prints them in ascending order?
+
 
 
 
