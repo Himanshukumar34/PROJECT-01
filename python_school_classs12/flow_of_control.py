@@ -79,28 +79,13 @@
 #     print("It is a palindrome ")
 
 
-# Q.9 Print fibonacci series up to n terms ?
-# num1=int(input("Enter where you want to make fibonacci series :"))
-# for i in range(1,len(num1)+1):
-
-
-         
-
-
-
-
-
-
-
-
-
 
 
 
 
 
 # #                                                           FLOW OF CONTROLS
-#   EXAMPLES
+#                                                                  EXAMPLES
 #                 
 #Q=4.1 Program to accept three integers and print the largest of the three . Make use only if statement ?
 
@@ -143,27 +128,62 @@
 
 
 # 4.6 Program to display a menu for calculating area of a circle or perimeter of a circle?
-while True:
-    radius=bool(input("Enter your radius of circle :"))
-    print("1.Calculate area")
-    print("2.Calculate perimeter")
-    choice = int(input("Enter your choice :"))
-    if choice==1:
-        print(3.14159*radius*radius)
-    elif choice==2:
-        print(2*3.14*radius)
+# while True:
+#     radius=bool(input("Enter your radius of circle :"))
+#     print("1.Calculate area")
+#     print("2.Calculate perimeter")
+#     choice = int(input("Enter your choice :"))
+#     if choice==1:
+#         print(3.14159*radius*radius)
+#     elif choice==2:
+#         print(2*3.14*radius)
+
+# Q 4.9 Program to print whether a given character is an uppercase or a lowercase character or a digit or any other charcter ?
+# num1=input("Enter a single character :")
+# if num1.isdigit():
+#     print("It is a digit")
+# elif num1.upper():
+#     print("It is an uppercase letter ")
+# elif num1.lower():
+#     print("It is an lowercase letters ")
+# else:
+#     print("It is a special character")
+
+# Q4.10 Program to calculate and print roots of a quadratic equation : ax^2+bx+c=0
+# Apporach01
+# import math
+# print("For equation ax^2+bx+c enter there a , b and c :")
+# a=int(input("Enter you value of a :"))
+# b=int(input("Enter you value of b :"))
+# c=int(input("Enter you value of c :"))
+# discrimnant=(b*b)-(4*a*c)
+# if 
+
+
+
+# Q4.11 Program to print the table of a number ?
+# Apporach01
+# n=int(input("Enter your number :"))
+# for i in range(n,n*11,n):
+#     print(i)
+
+# #Apporach02
+# n=int(input("Enter your number :"))
+# for i in range(1,11):
+#     print(f"{n}*{i}={n*i}")
+
+# Apprach03
+# n=int(input("Enter your number :"))
+# k=1
+# while k<=10:
+#      num1=n*k
+#      print(f"{n} * {k} ={num1}")
+#      k+=1
 
 
 
 
-
-
-
-
-
-
-
-# Q.3 program to prints the sum of natural numbers betweemn 1 to 7 . print the sum progressively i.e after adding each natural number , print sum so far ?
+# Q4.13 program to prints the sum of natural numbers betweemn 1 to 7 . print the sum progressively i.e after adding each natural number , print sum so far ?
 # count=0
 # for j  in range(1,8):
 #     count+=j
