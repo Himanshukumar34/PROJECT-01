@@ -1,4 +1,4 @@
-# Chatgpt task 
+#                     Chatgpt task 
 # Q.1 check whether a number is positive , negative or zero?
 # num1=int(input("Enter your number to check it it positive , negative or zero :"))
 # if num1>0:
@@ -150,16 +150,14 @@
 #     print("It is a special character")
 
 # Q4.10 Program to calculate and print roots of a quadratic equation : ax^2+bx+c=0
-# Apporach01
+# Apporach01  Pending 
 # import math
 # print("For equation ax^2+bx+c enter there a , b and c :")
 # a=int(input("Enter you value of a :"))
 # b=int(input("Enter you value of b :"))
 # c=int(input("Enter you value of c :"))
 # discrimnant=(b*b)-(4*a*c)
-# if 
-
-
+# Roots=-b*b+
 
 # Q4.11 Program to print the table of a number ?
 # Apporach01
@@ -180,9 +178,6 @@
 #      print(f"{n} * {k} ={num1}")
 #      k+=1
 
-
-
-
 # Q4.13 program to prints the sum of natural numbers betweemn 1 to 7 . print the sum progressively i.e after adding each natural number , print sum so far ?
 # count=0
 # for j  in range(1,8):
@@ -190,16 +185,15 @@
 #     print("sum of natural number 0 to 7 ",count)
 
 
-# Q.4 program to calculate the foactorial of a number ?
+# Q4.14 program to calculate the foactorial of a number ?
 # num1=int(input("Enter your num1: "))
 # count=1
-# fact=0
-# for i in range(1,num1+1):
-#      num1=count*i
-# print(num1)
+# for i in range(0,num1):
+#     count*=num1-i
+# print("Factorial of the number is :",count)
 
 
-# Q.5 program to calculate and print the sums of even  and  odd intergers of the first n natural numbers ?
+# Q4.15 program to calculate and print the sums of even  and  odd intergers of the first n natural numbers ?
 # num1 = int(input("Enter your natural number : "))
 # even=0
 # odd=0
@@ -223,7 +217,7 @@
 #         print("your total sum is ",count)
 #         break
 
-# Q.7 program to input a number and test if its a prime number ?
+# Q4.19 program to input a number and test if its a prime number ?
 # num1=int(input("Enter your number :"))
 # num2=num1%1 
 # num3=num1%num1
@@ -238,9 +232,7 @@
 
 
 
-                 #                                                      SOLVED PROBLEMS 
-
-
+#                                                      SOLVED PROBLEMS 
 # # Q.1 calculate factorials ?
 # num1=int(input("Enter your number :"))
 # count=1
@@ -249,8 +241,8 @@
 #     i+=1
 #     count*=i
 #     count2+=count
-    
 # print(count)
+
 
 # # Q.2 write a program to input a 6 digit number and divide it into three 2 digit numbers ?
 # num1=int(input("Enter your numbers  "))
@@ -305,27 +297,8 @@
 #     num+=i
 # print( num1)`
 
-
 #                                            NCERT GUIDLINES 
-# # Q.1 write a program that prints minimum and maximum of five numbers eneterd by the user?
-# a=int(input("Enter your num1 :"))
-# b=int(input("Enter your num1 :"))
-# c=int(input("Enter your num1 :")) 
-# d=int(input("Enter your num1 :")) 
-# e=int(input("Enter your num1 :")) 
-# max, min= 
-# Q.2 Write a progam to check if the year entered by the user is a leap ?
-
-# Q.3 write a program to find the sum of digit of an integers number , input by the user? 
-# num1=int(input("Enter your numbers :"))
-
-
-
-
-
-
-
-
-
-
+# Q.3 Write a program that prints minimum and maximum of five numbers entered by the user ?
+# program to input five numbers and print the largest and smallest numbers.
+num1=int(input("Enter your five numbers : "))
 
