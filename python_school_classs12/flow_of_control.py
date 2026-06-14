@@ -300,5 +300,35 @@
 #                                            NCERT GUIDLINES 
 # Q.3 Write a program that prints minimum and maximum of five numbers entered by the user ?
 # program to input five numbers and print the largest and smallest numbers.
-num1=int(input("Enter your five numbers : "))
+# num1=int(input("Enter your five numbers : "))
+# num2=int(input("Enter your five numbers : "))
+# num3=int(input("Enter your five numbers : "))
+# num4=int(input("Enter your five numbers : "))
+# num5=int(input("Enter your five numbers : "))
+
+# Approach01
+maximum=0
+minimum=0
+while True:
+    num1=int(input("Enter your number :"))
+    
+
+# Q.5 Write a program to generate the sequence -5,10,-15,20,-25...... upto n is an integer input
+# by the user ?
+while True:
+    n=int(input("Enter your n :"))
+    
+
+
+
+
+
+
+
+    
+
+# Q.6 Write a program to find the sum of 1+1/8 +1/27........ 1/n ki power 3
+# where n is the number input by the user ?
+
+
 
