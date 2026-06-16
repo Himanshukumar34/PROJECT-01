@@ -313,18 +313,23 @@ while True:
     num1=int(input("Enter your number :"))
     
 
+        
+
+
+
+
+
+
+
+
+
+
+
+
 # Q.5 Write a program to generate the sequence -5,10,-15,20,-25...... upto n is an integer input
 # by the user ?
 while True:
     n=int(input("Enter your n :"))
-    
-
-
-
-
-
-
-
     
 
 # Q.6 Write a program to find the sum of 1+1/8 +1/27........ 1/n ki power 3
