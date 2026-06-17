@@ -1,51 +1,13 @@
 #                            Chatgpt task
-# Q.1 Take a string input and print it in reverse 
+# Q.1 Replace all vowels with * ?
 
-# Approach01
-# num1=str(input("Enter your string :"))
-# count=[]
-# for i in num1:
-#     count.append(i)
-#     count.reverse()
-#     num3=" ".join(count)
+# Q.2 Remove all spaces from a string ?
 
-# print(num3)
+# Q.3 Count number of words in a string ?
 
-# Approach02
-# string=str(input("Enter your string :"))
-# print(string[ : :-1])
-
-# Q.3 Find the frequency of each character from a string ?
-num1=str(input("Enter you string in input  :"))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Q.4 Print characters at even index?
+ 
+# Q.5 Find common characters from two strings ?
 
 #                                      Chatper =9   string pratice problem
 
@@ -107,17 +69,15 @@ num1=str(input("Enter you string in input  :"))
 # Count the total number of character in the text (inculding white spaces) ,total number of alphabets , total number os digits 
 # ,total number of special symbols and total number os words in the given text . 
 # (Assume that each word is seperated by one space)?
-num1: str=input("Enter your text :")
+
 alphabets=0
 digit=0
 symbols=0
 words=0
-for i in num1:
-    if i.digit():
-        digit+=1
-    elif i.alpha():
+while True:
+    num1: str=input("Enter your text :")
+    if num1.alpha():
         alphabets+=1
-    elif i.
-
+    
 
 print(f"Total number of character :{len(num1)}")
