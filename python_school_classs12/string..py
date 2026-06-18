@@ -1,12 +1,31 @@
 #                            Chatgpt task
 # Q.1 Replace all vowels with * ?
+# num1=str(input("Enter your string :"))
+# vowels="a,e,i,o,u"
+# vowels2="a,e,i,o,u".upper()
+# count=[]
+# for i in num1:
+#     if i not in vowels:
+#         count+=i
+#     if i in vowels or i in vowels2:
+#         count+="*"
+# num2=" ".join(count)
+# print(num2)
 
 # Q.2 Remove all spaces from a string ?
+# num1=str(input("Enter your line :"))
+# for i in num1:
+#     if i.isalpha():
+#         print(i,end="")
 
 # Q.3 Count number of words in a string ?
 
 # Q.4 Print characters at even index?
- 
+num1=str(input("Enter your character :"))
+
+
+
+
 # Q.5 Find common characters from two strings ?
 
 #                                      Chatper =9   string pratice problem
@@ -70,14 +89,14 @@
 # ,total number of special symbols and total number os words in the given text . 
 # (Assume that each word is seperated by one space)?
 
-alphabets=0
-digit=0
-symbols=0
-words=0
-while True:
-    num1: str=input("Enter your text :")
-    if num1.alpha():
-        alphabets+=1
+# alphabets=0
+# digit=0
+# symbols=0
+# words=0
+# while True:
+#     num1: str=input("Enter your text :")
+#     if num1.alpha():
+#         alphabets+=1
     
 
-print(f"Total number of character :{len(num1)}")
+# print(f"Total number of character :{len(num1)}")
