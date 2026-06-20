@@ -19,14 +19,37 @@
 #         print(i,end="")
 
 # Q.3 Count number of words in a string ?
+string1=str(input("Enter your characters of line :"))
 
+        
 # Q.4 Print characters at even index?
-num1=str(input("Enter your character :"))
-
-
-
+# num1=str(input("Enter your character :"))
+# length=len(num1)
+# for i in range(0,length+1):
+#     even=i%2
+#     if even==0:
+#         print(num1[i])
 
 # Q.5 Find common characters from two strings ?
+# Approach01
+# string1=str(input("Enter you character1 :"))
+# string2=str(input("Enter your character2 :"))
+# count1=[]  #list
+# for i in string1:
+#     if i in string2:
+#         count1.append(i)
+# Common="".join(count1)
+# print("Common character in two strings",Common)
+
+    
+
+
+
+
+
+
+
+
 
 #                                      Chatper =9   string pratice problem
 
@@ -100,3 +123,6 @@ num1=str(input("Enter your character :"))
     
 
 # print(f"Total number of character :{len(num1)}")
+
+                                                    #    Ncert exercie
+# Q.1                                                    
