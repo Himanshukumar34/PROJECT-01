@@ -19,7 +19,7 @@
 #         print(i,end="")
 
 # Q.3 Count number of words in a string ?
-string1=str(input("Enter your characters of line :"))
+# string1=str(input("Enter your characters of line :"))
 
         
 # Q.4 Print characters at even index?
@@ -122,7 +122,4 @@ string1=str(input("Enter your characters of line :"))
 #         alphabets+=1
     
 
-# print(f"Total number of character :{len(num1)}")
-
-                                                    #    Ncert exercie
-# Q.1                                                    
+# print(f"Total number of character :{len(num1)}")                                     

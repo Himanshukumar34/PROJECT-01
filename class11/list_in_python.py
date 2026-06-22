@@ -1,3 +1,43 @@
+# Chatgpt question
+# Q.1 Find the sum of all elements in a list ?
+# l1=[38,48,39,58,69,48]
+# count=0
+# for i in l1:
+#     count+=i
+# print(i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+list1=[34,35,75,36,74]
+print(list1[0:3])
+
+
 
 # # Example
 # L1=list("hello")
@@ -137,8 +177,8 @@
 
 # Q.9 Program to find frequencies of all elements of a list . Also print the list of 
 # unique elements in the list and duplicate elements in the given list ?
-lst1=eval(input("Enter your list :"))
-count=0
-length=len(lst1)
-for i in range(0,length):
-    if lst1[i]==
+# lst1=eval(input("Enter your list :"))
+# count=0
+# length=len(lst1)
+# for i in range(0,length):
+#     if lst1[i]==
