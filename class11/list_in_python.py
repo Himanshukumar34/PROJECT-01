@@ -84,19 +84,29 @@
 #     if lst1[i]==
 
 
-#                                           Chat gpt problem of list in python 
+#                                           Chatgpt problem of list in python 
 # Q.1 Write a program to remove duplicate elements from a list.
 # Q.2 Write a program to merge two lists and display the result.
 # Q.3 Write a program to create a list of squares using list comprehension.
 # Q.4 Write a program to separate even and odd numbers into different lists.
 
 # 1
-num1=eval(input("Enter your lists :" ))
-length=len(num1)
-count=[] #empty list 
-for i in range(0,length):
-    if num1[i] not in  count :
-        count.append(num1[i])
+# num1=eval(input("Enter your lists :" ))
+# length=len(num1)
+# count=[] #empty list 
+# for i in range(0,length):
+#     if num1[i] not in  count :
+#         count.append(num1[i])
 
-print("New list is ",count)
+# print("New list is ",count)
 
+# lst1=eval(input("Give your list 1 :"))
+# lst2=eval(input("Give your list 2 :"))
+# lst1.extend(lst2)
+# # print(lst1)
+
+# lst1=eval(input("Give your list 1 :"))
+# lst2=eval(input("Give your list 2 :"))
+# for i in lst1:
+#     lst2.append(i)
+# print(lst2)
