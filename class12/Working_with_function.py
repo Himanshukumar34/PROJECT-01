@@ -8,8 +8,7 @@ How to write a function
 - Use `return` to send back a result.
 
 Easy examples
-def greet(name):
-	"""Return greeting for the given name."""
+
 	return "Hello, " + name
 
 def add(a, b=0):
