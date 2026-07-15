@@ -1,30 +1,15 @@
-"""Simple notes on Python functions for Class 12 students.
+# program add.py to add two numbers through a function ?
+# def add(num1,num2):
+#     return num1+num2
 
-What is a function?
-- A function is a named block of code. Use `def` to make one.
+# num1=int(input("Enter your numbers1: "))
+# num2=int(input("Enter your number2: "))
+# print(add(num1,num2))
 
-How to write a function
-- `def name(parameters):` then write the code indented below.
-- Use `return` to send back a result.
+# #  Program that receives two numbers in a function and return the results of all arihtmetic operations (+,-,/,*,%) on these numbers ?
+# def calculator(x,y):
+#     return x+y,x-y,x*y,x/y
 
-Easy examples
-
-	return "Hello, " + name
-
-def add(a, b=0):
-	"""Return sum of a and b. b is optional."""
-	return a + b
-
-def sum_all(*nums):
-	"""Return total of all numbers given."""
-	total = 0
-	for n in nums:
-		total += n
-	return total
-
-if __name__ == "__main__":
-	print(greet("World"))
-	print(add(5))
-	print(add(2, 3))
-	print(sum_all(1, 2, 3, 4))
-"""
+# x=int(input("Enter your x value : "))
+# y=int(input("Enter your y value  :"))
+# print(calculator(x,y))
