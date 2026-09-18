@@ -18,6 +18,10 @@ def delete():
             else:
                 print("task not exists")
         print("your task successfuly added")
+# def mark_as_done():
+    
+    
+
 while True:
     print("Welcome to do list")
     print("1. add task ")
