@@ -5,7 +5,7 @@ mydb=mysql.connector.connect(
     host="localhost",
     user="root",
     database="employees",
-    password="NewPassword@123"
+    password="12qwQW?@"
 )
 
 print("connected")
